@@ -444,7 +444,3 @@ class Experiment(object):
             # print('after_dev_acc', list(self.model_dev_acc.keys()))
             print('after_pool:', len(self.model_pool))
 
-
-if __name__ == '__main__':
-    exp = Experiment(*sys.argv[1:])
-    exp.start()
