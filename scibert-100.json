@@ -1,0 +1,13 @@
+{
+    "params": {
+        "scibert": [0, 1, 2, 3, 4]
+    },
+    "num_seed_data": 100,
+    "num_search": 10000,
+    "num_input_data": 1000,
+    "num_output_data": 500,
+    "max_combo_size": 15,
+    "max_model_pool_size": 30,
+    "min_agreement": 0.8,
+    "num_extra_data": 100000
+}
